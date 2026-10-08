@@ -313,6 +313,9 @@
     <!-- Whether this device is supporting the software microphone toggle -->
     <bool name="config_supportsMicToggle">true</bool>
 
+    <!-- Whether WM DisplayContent supports high performance transitions -->
+    <bool name="config_deviceSupportsHighPerfTransitions">false</bool>
+
     <!-- Whether device supports double tap to wake -->
     <bool name="config_supportDoubleTapWake">true</bool>
 
