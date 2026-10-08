@@ -1,0 +1,7 @@
+[
+  {
+    "repository": "raphakkj4/android_vendor_xiaomi_sea-miuicamera",
+    "target_path": "vendor/xiaomi/sea-miuicamera",
+    "branch": "main"
+  }
+]
