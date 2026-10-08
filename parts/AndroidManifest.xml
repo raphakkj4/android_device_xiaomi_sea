@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.lineageos.settings"
+    android:versionCode="1"
+    android:versionName="1.0"
+    android:sharedUserId="android.uid.system">
+
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+
+    <application
+        android:label="@string/device_settings_app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SubSettingsBase">
+
+        <activity
+            android:name=".seaparts.SeaPartsActivity"
+            android:exported="true"
+            android:label="@string/sea_parts_title">
+            <intent-filter>
+                <action android:name="com.android.settings.action.IA_SETTINGS" />
+            </intent-filter>
+            <meta-data
+                android:name="com.android.settings.category"
+                android:value="com.android.settings.category.ia.system" />
+            <meta-data
+                android:name="com.android.settings.summary"
+                android:resource="@string/sea_parts_summary" />
+            <meta-data
+                android:name="com.android.settings.icon"
+                android:resource="@drawable/ic_seaparts" />
+            <meta-data
+                android:name="com.android.settings.order"
+                android:value="150" />
+        </activity>
+
+        <activity
+            android:name=".gpu.GpuActivity"
+            android:exported="false"
+            android:label="@string/gpu_title" />
+        <activity
+            android:name=".battery.BatteryActivity"
+            android:exported="false"
+            android:label="@string/battery_title" />
+        <activity
+            android:name=".speaker.ClearSpeakerActivity"
+            android:exported="false"
+            android:label="@string/clear_speaker_title" />
+    </application>
+</manifest>

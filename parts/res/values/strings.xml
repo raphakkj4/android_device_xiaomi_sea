@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="device_settings_app_name">Sea Parts</string>
+    <string name="sea_parts_title">Sea Parts</string>
+    <string name="sea_parts_summary">Device controls and diagnostics</string>
+
+    <string name="category_performance">Performance</string>
+    <string name="category_diagnostics">Diagnostics</string>
+    <string name="category_audio">Audio</string>
+
+    <string name="gpu_title">GPU</string>
+    <string name="gpu_summary">DVFS frequency and load status</string>
+    <string name="gpu_mode">Frequency control</string>
+    <string name="gpu_frequency">Current frequency</string>
+    <string name="gpu_utilization">Utilization</string>
+    <string name="gpu_restore">Restore dynamic scaling</string>
+    <string name="gpu_restore_summary">Release any fixed OPP and return control to the kernel</string>
+    <string name="gpu_dynamic">Dynamic (kernel DVFS)</string>
+    <string name="gpu_locked">Fixed at OPP %1$s</string>
+    <string name="gpu_unavailable">Unavailable</string>
+    <string name="gpu_restored">Dynamic GPU scaling restored</string>
+    <string name="gpu_restore_failed">Could not restore dynamic GPU scaling</string>
+
+    <string name="battery_title">Battery and sleep</string>
+    <string name="battery_summary">Live battery data and deep-sleep residency</string>
+    <string name="battery_status">Status</string>
+    <string name="battery_level">Level</string>
+    <string name="battery_voltage">Voltage</string>
+    <string name="battery_current">Current</string>
+    <string name="battery_power">Power</string>
+    <string name="battery_temperature">Temperature</string>
+    <string name="device_uptime">Awake time since boot</string>
+    <string name="deep_sleep">Deep sleep since boot</string>
+    <string name="deep_sleep_ratio">Deep-sleep residency</string>
+    <string name="charging">Charging</string>
+    <string name="discharging">Discharging</string>
+    <string name="full">Full</string>
+    <string name="not_charging">Not charging</string>
+    <string name="unknown">Unknown</string>
+
+    <string name="clear_speaker_title">Clear speaker</string>
+    <string name="clear_speaker_summary">Play a 30-second low-frequency sweep</string>
+    <string name="clear_speaker_switch">Start speaker cleaning</string>
+    <string name="clear_speaker_description">Set media volume high and hold the phone with the speaker facing downward. The sound stops automatically after 30 seconds.</string>
+</resources>

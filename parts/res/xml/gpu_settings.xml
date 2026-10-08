@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference android:key="gpu_mode" android:selectable="false" android:title="@string/gpu_mode" />
+    <Preference android:key="gpu_frequency" android:selectable="false" android:title="@string/gpu_frequency" />
+    <Preference android:key="gpu_utilization" android:selectable="false" android:title="@string/gpu_utilization" />
+    <Preference android:key="gpu_restore" android:summary="@string/gpu_restore_summary" android:title="@string/gpu_restore" />
+</PreferenceScreen>

@@ -161,6 +161,9 @@ PRODUCT_PACKAGES += \
     WifiOverlaySea
 
 PRODUCT_PACKAGES += \
+    XiaomiParts
+
+PRODUCT_PACKAGES += \
     NcmTetheringOverlay
 
 PRODUCT_PACKAGES += \

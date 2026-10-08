@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreferenceCompat
+        android:key="clear_speaker"
+        android:summary="@string/clear_speaker_summary"
+        android:title="@string/clear_speaker_switch" />
+    <com.android.settingslib.widget.FooterPreference
+        android:key="footer"
+        android:selectable="false"
+        android:title="@string/clear_speaker_description" />
+</PreferenceScreen>
