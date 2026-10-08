@@ -91,6 +91,7 @@ PRODUCT_PACKAGES += \
     init.mt6781.usb.rc \
     init.mtkgki.rc \
     init.project.rc \
+    init.sea.power.rc \
     init.sensor_1_0.rc \
     init.stnfc.rc \
     init_connectivity.rc \

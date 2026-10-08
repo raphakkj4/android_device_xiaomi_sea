@@ -1,0 +1,11 @@
+on early-boot
+    write /sys/power/mem_sleep deep
+    write /proc/gpufreqv2/fix_target_opp_index -1
+
+on boot
+    chown system system /proc/gpufreqv2/fix_target_opp_index
+    chmod 0660 /proc/gpufreqv2/fix_target_opp_index
+
+on property:sys.boot_completed=1
+    write /sys/power/mem_sleep deep
+    write /proc/gpufreqv2/fix_target_opp_index -1
