@@ -354,8 +354,6 @@
      
      <bool name="config_carrier_wfc_ims_available">true</bool>
 
-     <bool name="config_zramWriteback">true</bool>
-
      <bool name="config_proximityCheckOnWake">true</bool>
 
     <!-- Whether WiFi display is supported by this device.
