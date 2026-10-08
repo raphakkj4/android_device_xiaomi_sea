@@ -330,3 +330,6 @@ PRODUCT_PACKAGES += \
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/sea/sea-vendor.mk)
+
+# MiuiCamera
+$(call inherit-product, vendor/xiaomi/sea-miuicamera/sea-miuicamera.mk)
