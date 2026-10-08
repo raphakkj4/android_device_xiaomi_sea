@@ -2168,7 +2168,7 @@ vendor/etc/init/android.hardware.tetheroffload-V1-service.rc
 vendor/etc/vintf/manifest/android.hardware.tetheroffload-V1-service.xml
 
 # Thermal
-# vendor/bin/hw/android.hardware.thermal-service.mediatek
+vendor/bin/hw/android.hardware.thermal-service.mediatek
 
 # Thermal (Xiaomi)
 vendor/bin/mi_thermald
@@ -2440,7 +2440,7 @@ vendor/etc/init/mtkpower_applist-mtk-default.rc
 # vendor/etc/init/netdagent.rc
 # vendor/etc/init/networksetting.rc
 vendor/etc/init/nvram_daemon.rc
-# vendor/etc/init/thermal-mediatek.rc
+vendor/etc/init/thermal-mediatek.rc
 vendor/etc/init/v3avpud.rc
 #y vendor/etc/init/vendor.mediatek.hardware.aee@1.1-service.rc
 # vendor/etc/init/vendor.mediatek.hardware.aee@V1-service.rc
@@ -2501,7 +2501,7 @@ vendor/etc/vintf/manifest/memtrack-mediatek.xml
 vendor/etc/vintf/manifest/mtk_lbs_service.xml
 vendor/etc/vintf/manifest/mtkpower_applist-mtk-default.xml
 vendor/etc/vintf/manifest/power-mediatek.xml
-# vendor/etc/vintf/manifest/thermal-mediatek.xml
+vendor/etc/vintf/manifest/thermal-mediatek.xml
 #y vendor/etc/vintf/manifest/vendor.xiaomi.hardware.mimd@1.0-service.xml
 #y vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@1.0.xml
 #y vendor/etc/vintf/manifest/vendor.xiaomi.hardware.misys@2.0.xml

@@ -223,9 +223,6 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.wifi.rtt.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.rtt.xml \
     frameworks/native/data/etc/android.hardware.wifi.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.wifi.xml
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal_info_config.json:$(TARGET_COPY_OUT_VENDOR)/etc/thermal_info_config.json
-
 # Vibrator
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.vibrator.service.ygorbrxx
@@ -308,11 +305,6 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors-service.xiaomi-multihal \
     android.hardware.sensors@2.0-subhal-impl-1.0 \
     sensors.dynamic_sensor_hal
-
-# Thermal
-PRODUCT_PACKAGES += \
-    android.hardware.thermal-service.mediatek \
-    thermal_symlinks_mediatek
 
 # NFC
 PRODUCT_PACKAGES += \
