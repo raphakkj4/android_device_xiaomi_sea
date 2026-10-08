@@ -24,7 +24,7 @@ public class SeaPartsFragment extends PreferenceFragment {
         Preference preference = findPreference(key);
         if (preference != null) {
             preference.setOnPreferenceClickListener(clicked -> {
-                startActivity(new Intent(requireContext(), activity));
+                startActivity(new Intent(getActivity(), activity));
                 return true;
             });
         }

@@ -34,7 +34,7 @@ public class GpuFragment extends PreferenceFragment {
         if (restore != null) {
             restore.setOnPreferenceClickListener(preference -> {
                 boolean restored = GpuUtils.restoreDynamicScaling();
-                Toast.makeText(requireContext(), restored ? R.string.gpu_restored
+                Toast.makeText(getActivity(), restored ? R.string.gpu_restored
                         : R.string.gpu_restore_failed, Toast.LENGTH_SHORT).show();
                 update();
                 return true;

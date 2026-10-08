@@ -50,7 +50,7 @@ public class ClearSpeakerFragment extends PreferenceFragment
 
     private void startPlaying() {
         if (mRunning) return;
-        requireActivity().setVolumeControlStream(AudioManager.STREAM_MUSIC);
+        getActivity().setVolumeControlStream(AudioManager.STREAM_MUSIC);
         int minimum = AudioTrack.getMinBufferSize(SAMPLE_RATE,
                 AudioFormat.CHANNEL_OUT_MONO, AudioFormat.ENCODING_PCM_16BIT);
         int bufferSize = Math.max(minimum, SAMPLE_RATE / 5);

@@ -39,7 +39,7 @@ public class BatteryFragment extends PreferenceFragment {
 
     @Override
     public void onCreatePreferences(Bundle savedInstanceState, String rootKey) {
-        Context context = requireContext();
+        Context context = getActivity();
         PreferenceScreen screen = getPreferenceManager().createPreferenceScreen(context);
         mStatus = add(screen, R.string.battery_status);
         mLevel = add(screen, R.string.battery_level);
@@ -66,7 +66,7 @@ public class BatteryFragment extends PreferenceFragment {
     }
 
     private Preference add(PreferenceScreen screen, int title) {
-        Preference preference = new Preference(requireContext());
+        Preference preference = new Preference(getActivity());
         preference.setTitle(title);
         preference.setSelectable(false);
         screen.addPreference(preference);
@@ -74,7 +74,8 @@ public class BatteryFragment extends PreferenceFragment {
     }
 
     private void update() {
-        Context context = requireContext();
+        Context context = getActivity();
+        if (context == null) return;
         Intent battery = context.registerReceiver(null,
                 new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
         if (battery == null) return;
