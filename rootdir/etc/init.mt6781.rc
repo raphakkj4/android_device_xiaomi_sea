@@ -12,6 +12,7 @@ import ${ro.vendor.rc}init.sensor_1_0.rc
 import /vendor/etc/init/hw/init.stnfc.rc
 import /system/etc/init/hw/init.stnfc.rc
 import ${ro.vendor.rc}init.cgroup.rc
+import /vendor/etc/init/hw/init.sea.power.rc
 
 
 # init.modem.rc must be the LAST rc file because vold.post_fs_data_done is set in it

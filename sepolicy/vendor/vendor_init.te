@@ -1,2 +1,5 @@
 set_prop(vendor_init, vendor_sensors_prop)
 set_prop(vendor_init, vendor_displayfeature_prop)
+
+rw_dir_file(vendor_init, proc_gpufreqv2)
+rw_dir_file(vendor_init, sysfs_ged)
