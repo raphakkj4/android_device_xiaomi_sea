@@ -1,4 +1,5 @@
 app_domain(devicesettings_app)
 
+allow devicesettings_app activity_service:service_manager find;
 allow devicesettings_app system_app_data_file:dir create_dir_perms;
 allow devicesettings_app system_app_data_file:{ file lnk_file } create_file_perms;
