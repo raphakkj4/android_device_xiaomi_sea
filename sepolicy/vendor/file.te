@@ -42,6 +42,9 @@ type sysfs_touchpanel, fs_type, sysfs_type;
 # Ultrasound
 type sound_device, dev_type;
 
+# USB Type-C
+type sysfs_typec, fs_type, sysfs_type;
+
 # Thermal 
 type vendor_mi_thermald, domain;
 type vendor_mi_thermald_exec, exec_type, vendor_file_type, file_type;
