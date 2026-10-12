@@ -1,5 +1,10 @@
 [
   {
+    "repository": "Pong-Development/hardware_dolby",
+    "target_path": "hardware/dolby",
+    "branch": "16"
+  },
+  {
     "repository": "raphakkj4/android_vendor_xiaomi_sea-miuicamera",
     "target_path": "vendor/xiaomi/sea-miuicamera",
     "branch": "main"
