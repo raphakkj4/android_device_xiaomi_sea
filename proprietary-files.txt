@@ -5,10 +5,10 @@ system/lib/av-audio-types-aidl-V1-ndk.so
 system/lib64/av-audio-types-aidl-V1-ndk.so
 system_ext/bin/hw/android.hardware.audio.parameter_parser.service
 system_ext/etc/init/android.hardware.audio.parameter_parser.service.rc
-# vendor/bin/hw/android.hardware.audio.service-aidl.mediatek
-# vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc
-# vendor/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml
-# vendor/etc/vintf/manifest/android.hardware.audio.service-aidl.xml
+vendor/bin/hw/android.hardware.audio.service-aidl.mediatek
+vendor/etc/init/android.hardware.audio.service-aidl.mediatek.rc
+vendor/etc/vintf/manifest/android.hardware.audio.effect.service-aidl.xml
+vendor/etc/vintf/manifest/android.hardware.audio.service-aidl.xml:vendor/etc/vintf/manifest/android.hardware.audio.service-aidl.mediatek.xml
 vendor/lib/hw/audio.primary.default.so
 vendor/lib/hw/audio.primary.mt6781.so
 # vendor/lib/hw/audio.r_submix.default.so
@@ -3283,13 +3283,13 @@ vendor/lib64/hw/android.hardware.sensors@2.X-subhal-mediatek.so
 vendor/lib64/hw/android.hardware.camera.provider@2.6-impl-mediatek.so
 vendor/lib/libmisight.so
 vendor/lib64/libmisight.so
-# vendor/lib/hw/android.hardware.audio.effect.aidl-impl-mediatek.so
-# vendor/lib64/hw/android.hardware.audio.effect.aidl-impl-mediatek.so
+vendor/lib/hw/android.hardware.audio.effect.aidl-impl-mediatek.so
+vendor/lib64/hw/android.hardware.audio.effect.aidl-impl-mediatek.so
 vendor/lib/hw/android.hardware.graphics.allocator-V2-mediatek.so
 vendor/lib64/hw/android.hardware.graphics.allocator-V2-mediatek.so
 vendor/lib/android.hardware.bluetooth.audio-impl-mediatek.so
 vendor/lib64/android.hardware.bluetooth.audio-impl-mediatek.so
-# vendor/lib/android.hardware.audio.core-impl-mediatek.so
-# vendor/lib64/android.hardware.audio.core-impl-mediatek.so
+vendor/lib/android.hardware.audio.core-impl-mediatek.so
+vendor/lib64/android.hardware.audio.core-impl-mediatek.so
 vendor/lib64/android.hardware.power-service-mediatek.so
 vendor/lib64/android.hardware.memtrack-V1-ndk.so:vendor/lib64/android.hardware.memtrack-V1-ndk_prebuilt.so;FIX_SONAME
