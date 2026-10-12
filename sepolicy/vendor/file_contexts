@@ -61,9 +61,6 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.media\.c2-mediatek u:object_r:mtk_hal_c2_exec:s0
 /vendor/etc/init/android\.hardware\.media\.omx@1\.0-service\.rc u:object_r:vendor_configs_file:s0
 
-# Dolby
-/(vendor|system/vendor)/bin/hw/vendor\.dolby\.hardware\.dms@2\.0-service u:object_r:hal_dms_default_exec:s0
-
 # Health / IR
 /(vendor|system/vendor)/bin/hw/android\.hardware\.ir@1\.0-service\.xiaomi u:object_r:hal_ir_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.health-service\.xiaomi u:object_r:hal_health_default_exec:s0
