@@ -221,7 +221,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl">
+    <hal format="aidl" optional="true">
         <name>android.hardware.audio.core</name>
         <version>2</version>
         <interface>
@@ -229,7 +229,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl">
+    <hal format="aidl" optional="true">
         <name>android.hardware.audio.core</name>
         <version>2</version>
         <interface>
@@ -237,7 +237,7 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl">
+    <hal format="aidl" optional="true">
         <name>android.hardware.audio.core</name>
         <version>2</version>
         <interface>
@@ -245,7 +245,7 @@
             <instance>bluetooth</instance>
         </interface>
     </hal>
-    <hal format="aidl">
+    <hal format="aidl" optional="true">
         <name>android.hardware.audio.core</name>
         <version>2</version>
         <interface>
@@ -253,7 +253,7 @@
             <instance>r_submix</instance>
         </interface>
     </hal>
-    <hal format="aidl">
+    <hal format="aidl" optional="true">
         <name>android.hardware.audio.effect</name>
         <version>2</version>
         <interface>
@@ -306,9 +306,17 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="aidl">
+    <hal format="aidl" optional="true">
         <name>android.hardware.soundtrigger3</name>
         <version>2</version>
+        <interface>
+            <name>ISoundTriggerHw</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+    <hal format="hidl" optional="true">
+        <name>android.hardware.soundtrigger</name>
+        <version>2.3</version>
         <interface>
             <name>ISoundTriggerHw</name>
             <instance>default</instance>
