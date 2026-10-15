@@ -50,11 +50,6 @@ init_daemon_domain(vendor_mi_thermald)
 # Ril
 type vendor_modem_data_file, data_file_type, file_type;
 
-# GNSS
-type mtk_hal_gnss_exec, exec_type, vendor_file_type, file_type;
-type mtk_hal_gnss, domain;
-init_daemon_domain(mtk_hal_gnss)
-
 # Micharge
 type hal_micharge_default, domain;
 type hal_micharge_default_exec, exec_type, vendor_file_type, file_type;
