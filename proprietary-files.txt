@@ -3040,7 +3040,6 @@ vendor/lib64/libmisoundcrossfade.so
 #y vendor/lib64/libmmlpqImpl.so
 vendor/lib64/libmmprofile.so
 vendor/lib64/libmnetlink_v104.so
-vendor/lib64/libmnl.so
 vendor/lib64/libmp4enc_sa.ca7.so
 vendor/lib64/libmsbc_mtk.so
 vendor/lib64/libmsnr.so
