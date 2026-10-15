@@ -120,10 +120,6 @@ PRODUCT_SOONG_NAMESPACES += \
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
 
-# Configstore
-PRODUCT_PACKAGES += \
-    disable_configstore
-
 # Control groups/Task profiles
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups_30.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
