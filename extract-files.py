@@ -42,6 +42,14 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    (
+        'vendor/lib/libpqtuning.so',
+        'vendor/lib64/libpqtuning.so',
+        'vendor/lib/mt6781/libdpframework.so',
+        'vendor/lib64/mt6781/libdpframework.so',
+    ): blob_fixup()
+        .replace_needed('libpqsharememory.so', 'libpqsharememory_mtk.so'),
+
     ('vendor/lib64/libaalservice.so', 'vendor/lib64/libcam.utils.sensorprovider.so'): blob_fixup()
         .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so')
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V1-ndk.so')

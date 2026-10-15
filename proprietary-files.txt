@@ -892,7 +892,7 @@ vendor/lib/libmtkcam_tuning_utils.so
 vendor/lib/libmtkcam_ulog.so
 #y vendor/lib/libpq_sec.so
 vendor/lib/libpqhdrmetaparser.so
-vendor/lib/libpqsharememory.so
+vendor/lib/libpqsharememory.so:vendor/lib/libpqsharememory_mtk.so;FIX_SONAME
 vendor/lib/libpqtuning.so
 vendor/lib/libsdrparser.so
 vendor/lib/ov64b40_main_aac_mipi_raw_IdxMgr.so
@@ -1489,7 +1489,7 @@ vendor/lib64/libmtkcam_tuning_utils.so
 vendor/lib64/libmtkcam_ulog.so
 #y vendor/lib64/libpq_sec.so
 vendor/lib64/libpqhdrmetaparser.so
-vendor/lib64/libpqsharememory.so
+vendor/lib64/libpqsharememory.so:vendor/lib64/libpqsharememory_mtk.so;FIX_SONAME
 vendor/lib64/libpqtuning.so
 vendor/lib64/libsdrparser.so
 vendor/lib64/ov64b40_main_aac_mipi_raw_IdxMgr.so
