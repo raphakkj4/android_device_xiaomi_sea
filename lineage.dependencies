@@ -1,6 +1,6 @@
 [
   {
-    "repository": "raphakkj4/hardware_dolby",
+    "repository": "raphakkj4/android_hardware_dolby",
     "target_path": "hardware/dolby",
     "branch": "16"
   },
