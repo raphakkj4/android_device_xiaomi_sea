@@ -120,7 +120,7 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('liblog.so'),
 
     ('vendor/bin/hw/android.hardware.contexthub-service.tinysys'): blob_fixup()
-        .replace_needed('android.hardware.contexthub-V3-ndk.so', 'android.hardware.contexthub-V4-ndk.so'),
+        .replace_needed('android.hardware.contexthub-V3-ndk.so', 'android.hardware.contexthub-V5-ndk.so'),
         
     ('vendor/bin/hw/android.hardware.memtrack-service.mediatek'): blob_fixup()
         .replace_needed('android.hardware.memtrack-V1-ndk.so', 'android.hardware.memtrack-V1-ndk_prebuilt.so'),
