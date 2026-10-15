@@ -38,6 +38,7 @@ def lib_fixup_vendor_suffix(lib: str, partition: str, *args, **kwargs):
 
 lib_fixups: lib_fixups_user_type = {
     **lib_fixups,
+    'libformatter': lib_fixup_vendor_suffix,
     'libmnl': lib_fixup_vendor_suffix,
 }
 
