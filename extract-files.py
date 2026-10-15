@@ -52,7 +52,8 @@ blob_fixups: blob_fixups_user_type = {
 
     ('vendor/bin/mnld'): blob_fixup()
         .replace_needed('libsensorndkbridge.so', 'android.hardware.sensors@1.0-convert-shared.so')
-        .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
+        .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so')
+        .replace_needed('libmnl.so', 'libmnl_mtk.so'),
 
     (
         'vendor/lib/egl/libGLES_mali.so',
