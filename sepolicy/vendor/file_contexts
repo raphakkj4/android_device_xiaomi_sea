@@ -38,7 +38,6 @@
 
 # HAL / Services
 /(vendor|system/vendor)/bin/hw/android\.hardware\.graphics\.allocator-V2-service-mediatek u:object_r:hal_graphics_allocator_default_exec:s0
-/(vendor|system/vendor)/bin/hw/android\.hardware\.neuralnetworks-shim-service-mtk-legacy u:object_r:mtk_hal_neuralnetworks_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.contexthub-service\.tinysys u:object_r:hal_contexthub_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.gatekeeper-service\.beanpod u:object_r:hal_gatekeeper_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.mediatek\.hardware\.mms-service u:object_r:mtk_hal_mms_exec:s0
