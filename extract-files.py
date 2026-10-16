@@ -65,6 +65,17 @@ blob_fixups: blob_fixups_user_type = {
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V1-ndk.so')
         .replace_needed('android.hardware.sensors-V1-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
 
+    (
+        'vendor/lib/hw/displayfeature.default.so',
+        'vendor/lib64/hw/displayfeature.default.so',
+        'vendor/lib/libpqxmlparser.so',
+        'vendor/lib64/libpqxmlparser.so',
+        'vendor/lib/librt_extamp_intf.so',
+        'vendor/lib64/librt_extamp_intf.so',
+        'vendor/lib64/libsilkybrightnesscore.so',
+    ): blob_fixup()
+        .replace_needed('libtinyxml2.so', 'libtinyxml2-v34.so'),
+
     ('vendor/lib/libaalservice.so'): blob_fixup()
         .replace_needed('android.hardware.sensors-V2-ndk.so', 'android.hardware.sensors-V3-ndk.so'),
 
