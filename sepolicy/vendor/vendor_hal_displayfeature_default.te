@@ -4,6 +4,7 @@ type vendor_hal_displayfeature_default_exec, exec_type, file_type, vendor_file_t
 init_daemon_domain(vendor_hal_displayfeature_default)
 
 binder_use(vendor_hal_displayfeature_default)
+hwbinder_use(vendor_hal_displayfeature_default)
 
 hal_client_domain(vendor_hal_displayfeature_default, vendor_hal_displayfeature)
 hal_server_domain(vendor_hal_displayfeature_default, vendor_hal_displayfeature)
@@ -22,7 +23,7 @@ allow vendor_hal_displayfeature_default vendor_displayfeature_device:chr_file { 
 allow vendor_hal_displayfeature_default persist_data_file:dir create_dir_perms;
 allow vendor_hal_displayfeature_default persist_data_file:file create_file_perms;
 
-allow vendor_hal_displayfeature_xiaomi_default self:process fork;
+allow vendor_hal_displayfeature_default self:process fork;
 
 allow vendor_hal_displayfeature_default sysfs_leds:file w_file_perms;
 allow vendor_hal_displayfeature_default sysfs_therm:file w_file_perms;
@@ -31,3 +32,4 @@ allow vendor_hal_displayfeature_default vendor_display_data_file:file create_fil
 allow vendor_hal_displayfeature_default vendor_displayfeature_sysfs:file w_file_perms;
 
 set_prop(vendor_hal_displayfeature_default, vendor_displayfeature_prop)
+get_prop(vendor_hal_displayfeature_default, hwservicemanager_prop)
