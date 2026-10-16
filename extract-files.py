@@ -42,6 +42,16 @@ lib_fixups: lib_fixups_user_type = {
 }
 
 blob_fixups: blob_fixups_user_type = {
+    ('vendor/etc/init/vendor.mediatek.hardware.pq_aidl-service.rc'): blob_fixup()
+        .regex_replace(
+            'service vender\\.mediatek\\.hardware\\.pq_aidl-default',
+            'service vendor.mediatek.hardware.pq_aidl-default',
+        )
+        .regex_replace(
+            'interface aidl vendor\\.mediatek\\.hardware\\.pq_aidl-service',
+            'interface aidl vendor.mediatek.hardware.pq_aidl.IPictureQuality_AIDL/default',
+        ),
+
     (
         'vendor/lib/libpqtuning.so',
         'vendor/lib64/libpqtuning.so',
