@@ -20,6 +20,7 @@ final class GpuUtils {
     static String getFixedOpp() {
         String value = read(FIXED_OPP);
         if (value == null) return null;
+        if (value.toLowerCase(Locale.ROOT).contains("disabled")) return "-1";
         Matcher matcher = INTEGER.matcher(value);
         return matcher.find() ? matcher.group() : value.trim();
     }
