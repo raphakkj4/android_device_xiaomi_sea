@@ -20,6 +20,11 @@ vendor.display.panel.calibration.status        u:object_r:vendor_displayfeature_
 vendor.displayfeature.entry.enable             u:object_r:vendor_displayfeature_prop:s0
 persist.vendor.max.brightness                  u:object_r:vendor_displayfeature_prop:s0
 
+# Mali
+persist.vendor.debug.gpud.                     u:object_r:vendor_mtk_gpu_prop:s0
+ro.vendor.arm.                                 u:object_r:vendor_mtk_gpu_prop:s0
+vendor.mali.                                   u:object_r:vendor_mtk_gpu_prop:s0
+
 # Sensors
 ro.vendor.sensors.xiaomi.		 u:object_r:vendor_sensors_prop:s0
 
