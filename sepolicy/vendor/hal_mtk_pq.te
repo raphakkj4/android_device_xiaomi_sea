@@ -1,1 +1,3 @@
 hal_attribute_service(hal_mtk_pq, mtk_hal_pq_service)
+
+allow mtk_hal_pq fwk_sensor_service:service_manager find;
