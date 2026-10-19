@@ -17,6 +17,17 @@ $(call inherit-product, device/xiaomi/sea/device.mk)
 # Include GApps. The path to the gapps blobs may be different, check the vendor/gapps/arm64/Android.mk file and adjust accordingly.
 # $(call inherit-product, vendor/gapps/arm64/arm64-vendor.mk)
 
+# Gapps
+WITH_GMS := true
+
+# Device props
+TARGET_SUPPORTS_BLUR := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_DISABLE_EPPE := true
+TARGET_SUPPORTS_NEXT_GEN_ASSISTANT := true
+TARGET_SUPPORTS_OMX_SERVICE := false
+
 PRODUCT_DEVICE := sea
 PRODUCT_NAME := lineage_sea
 PRODUCT_BRAND := Redmi
