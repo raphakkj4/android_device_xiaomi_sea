@@ -5,6 +5,9 @@ vendor.xiaomi.hardware.displayfeature_aidl.IDisplayFeature/default       u:objec
 mapper/mediatek                                                        u:object_r:hal_graphics_mapper_service:s0
 vendor.mediatek.hardware.composer_ext.IComposerExt/default              u:object_r:hal_graphics_composer_service:s0
 
+# Camera
+vendor.mediatek.hardware.camera.atms.IATMs/default                      u:object_r:hal_camera_service:s0
+
 # MediaTek PQ
 vendor.mediatek.hardware.pq_aidl.IPictureQuality_AIDL/default            u:object_r:mtk_hal_pq_service:s0
 

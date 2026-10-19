@@ -97,6 +97,7 @@
 
 # Libraries
 /vendor/lib(64)?/android\.hidl\.allocator@1\.0\.so u:object_r:same_process_hal_file:s0
+/vendor/lib(64)?/arm\.graphics-V[0-9]+-ndk\.so u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/hw/android\.hardware\.graphics\.allocator-V2-mediatek\.so u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/hw/mapper\.mediatek\.so u:object_r:same_process_hal_file:s0
 /vendor/lib(64)?/libpqhdrmetaparser\.so u:object_r:same_process_hal_file:s0
