@@ -28,7 +28,7 @@ genfscon sysfs /kernel/gpu/gpu_max_clock u:object_r:sysfs_gpu:s0
 
 # Health
 genfscon sysfs /devices/platform/1000d000.pwrap/1000d000.pwrap:mt6358-pmic/mt6358-gauge/power_supply/mtk-gauge/type u:object_r:sysfs_batteryinfo:s0
-genfscon sysfs /devices/platform/11016000.i2c5/i2c-5/5-006a/power_supply/primary_chg/online u:object_r:sysfs_batteryinfo:s0
+genfscon sysfs /devices/platform/11016000.i2c5/i2c-5/5-006a/power_supply/primary_chg u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/battery/power_supply/battery u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/battery/power_supply/bms u:object_r:sysfs_batteryinfo:s0
 genfscon sysfs /devices/platform/mt_charger/power_supply/ac u:object_r:sysfs_batteryinfo:s0
