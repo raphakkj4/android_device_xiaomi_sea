@@ -37,6 +37,7 @@
 /vendor/firmware/connfem\.cfg u:object_r:connsys_vendor_file:s0
 
 # HAL / Services
+/(vendor|system/vendor)/bin/hw/android\.hardware\.bluetooth-service\.mediatek u:object_r:mtk_hal_bluetooth_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.graphics\.allocator-V2-service-mediatek u:object_r:hal_graphics_allocator_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.contexthub-service\.tinysys u:object_r:hal_contexthub_default_exec:s0
 /(vendor|system/vendor)/bin/hw/android\.hardware\.gatekeeper-service\.beanpod u:object_r:hal_gatekeeper_default_exec:s0
