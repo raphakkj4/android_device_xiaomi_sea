@@ -37,6 +37,7 @@ init.userspace_reboot.is_supported=true
 media.c2.dmabuf.padding=3072
 media.c2.hal.selection=aidl
 persist.adb.nonblocking_ffs=0
+persist.sys.usb.config=mtp,adb
 persist.audio.button_jack.profile=volume
 persist.audio.button_jack.switch=0
 persist.bluetooth.a2dp_offload.disabled=false
