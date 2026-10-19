@@ -76,7 +76,6 @@ BOARD_MOVE_RECOVERY_RESOURCES_TO_VENDOR_BOOT := true
 BOARD_VENDOR_BOOTIMAGE_PARTITION_SIZE := 67108864
 
 BOARD_KERNEL_CMDLINE := bootopt=64S3,32N2,64N2 rcu_nocbs=all rcutree.enable_rcu_lazy log_buf_len=1024K sysctl.kernel.sched_pelt_multiplier=2 androidboot.serialconsole=0
-BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := sea
