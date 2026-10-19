@@ -9,6 +9,3 @@ on boot
 on property:sys.boot_completed=1
     write /sys/power/mem_sleep deep
     write /proc/gpufreqv2/fix_target_opp_index -1
-    write /sys/kernel/ged/hal/dvfs_margin_value 130
-    write /sys/kernel/ged/hal/timer_base_dvfs_margin 798
-    write /sys/kernel/ged/hal/loading_base_dvfs_step 4
