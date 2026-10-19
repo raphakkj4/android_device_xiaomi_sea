@@ -4,5 +4,8 @@ type vendor_hal_displayfeature_service, protected_service, service_manager_type;
 # MediaTek PQ
 type mtk_hal_pq_service, hal_service_type, service_manager_type;
 
+# MediaTek Power
+type mtk_hal_power_service, hal_service_type, service_manager_type;
+
 # TouchFeature
 type hal_touchfeature_xiaomi_service, hal_service_type, protected_service, service_manager_type;
